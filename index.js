@@ -29,38 +29,38 @@ buttons.forEach(element => {
         }
         
         //tetsting horizontally
-        if (buttons[0].textContent == buttons[1].textContent && buttons[1].textContent == buttons[2].textContent) {
+        if (buttons[0].textContent === buttons[1].textContent && buttons[1].textContent === buttons[2].textContent) {
             Gamecheck = buttons[2].textContent + " win";
             
             gameover();
-        } else if (buttons[3].textContent == buttons[4].textContent && buttons[4].textContent == buttons[5].textContent) {
+        } else if (buttons[3].textContent === buttons[4].textContent && buttons[4].textContent === buttons[5].textContent) {
             Gamecheck = buttons[5].textContent + " win";
             gameover();
-        } else if (buttons[6].textContent == buttons[7].textContent && buttons[7].textContent == buttons[8].textContent) {
+        } else if (buttons[6].textContent === buttons[7].textContent && buttons[7].textContent === buttons[8].textContent) {
             Gamecheck = buttons[8].textContent + " win";
             
             gameover();
         }
         //tetsting verticlay
-        else if (buttons[0].textContent == buttons[3].textContent && buttons[3].textContent == buttons[6].textContent) {
+        else if (buttons[0].textContent === buttons[3].textContent && buttons[3].textContent === buttons[6].textContent) {
             Gamecheck = buttons[6].textContent + " win";
             
             gameover();
-        } else if (buttons[1].textContent == buttons[4].textContent && buttons[4].textContent == buttons[7].textContent) {
+        } else if (buttons[1].textContent === buttons[4].textContent && buttons[4].textContent === buttons[7].textContent) {
             Gamecheck = buttons[7].textContent + " win";
             
             gameover();
-        } else if (buttons[2].textContent == buttons[5].textContent && buttons[5].textContent == buttons[8].textContent) {
+        } else if (buttons[2].textContent === buttons[5].textContent && buttons[5].textContent === buttons[8].textContent) {
             Gamecheck = buttons[8].textContent + " win";
             
             gameover();
         }
         //testing jagunbal
-        else if (buttons[0].textContent == buttons[4].textContent && buttons[4].textContent == buttons[8].textContent) {
+        else if (buttons[0].textContent === buttons[4].textContent && buttons[4].textContent === buttons[8].textContent) {
             Gamecheck = buttons[8].textContent + " win";
             
             gameover();
-        } else if (buttons[2].textContent == buttons[4].textContent && buttons[4].textContent == buttons[6].textContent) {
+        } else if (buttons[2].textContent === buttons[4].textContent && buttons[4].textContent === buttons[6].textContent) {
             Gamecheck = buttons[6].textContent + " win";
             
             gameover();
