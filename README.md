@@ -1,4 +1,5 @@
 # Morpion
 
-##https://vishnugopy.github.io/morpion/
-##Cliquez ici pour jouer
+
+https://vishnugopy.github.io/morpion/
+Cliquez ici pour jouer
